@@ -1,0 +1,7 @@
+package statics
+
+func StaticBooks() {
+
+
+
+}

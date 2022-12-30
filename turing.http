@@ -1,0 +1,24 @@
+GET http://biz-admin.alpha.turingos.cn/book-iot-api/bizAdmin/bookStoreAuthorization/pageBookStoreDetail?keyword=&pageNo=1&pageSize=1
+Content-Type: application/json
+Cookie: login-token=rO0osIVS8gqbbyDdCUIbh7CEjrdzIcaOsztfSSzwJhkaeB3sGWTP2nlzrd0zDsyUw3IedmF6JYM2_HuEAxIwoKMB-UZ495cNBwO2wpS9GX5F9Ucf6AjCkOpmtYccULgeeT5AoHQmDu9hkc5iStaHDR-rpg1KkJ3ahbZeqODfv5t2CpBxX8jKpOreU42PHaAyq2h88i8ccEgPJqLBffmrciW7rUqmGaY9t9feaI5Wrc1r0UG7GOkpbAgkOumsKqBHSUMriQS8jPLPG_0Hb_17FPC0YMWp0NiQBkIxxhZn90J6kbjFojCcjYA-cZKcBxY0hfv2rpRTwNY7golyf8GHGF2z-hS0p5g1
+
+### 获取书本热区
+POST http://biz-admin.alpha.turingos.cn/book-iot-api/bizAdmin/bookManagement/pieceList
+Content-Type: application/json
+Cookie: login-token=rO0osIVS8gqbbyDdCUIbh7CEjrdzIcaOsztfSSzwJhkaeB3sGWTP2nlzrd0zDsyUw3IedmF6JYM2_HuEAxIwoKMB-UZ785AKBgSyxZ-9GX5F9Ucf6AjCkOpmtYccULgeeT5AoHQmDu9hkc5iStaHDR-rpg1KkJ3ahbZeqODfv5t2CpBxX8jKpOreU42PHaAyq2h88i8ccEgPJqLBffmrciW7rUqmGaY9t9feaI5Wrc1r0UG7GOkpbAgkOumsKqBHSUMriQS8jPLPG_0HbPl8E_GzZMKi0NiQBkIxxhZn_Uh5k-nC92WdiNY-d8PMXBJmh_zzq8MFx9U6hNx4KcGHGCGw8Rf7hrRj
+
+{
+  "pageNo": 1,
+  "bookSign": "87d64c67f8b647ac89869ef4568321fe",
+  "apiKey": "b0819a2cd7724f058130b25dceda8dd3"
+}
+
+### 获取书本信息
+POST http://biz-admin.alpha.turingos.cn/book-iot-api/bizAdmin/bookManagement/bookInfo
+Content-Type: application/json
+Cookie: login-token=rO0osIVS8gqbbyDdCUIbh7CEjrdzIcaOsztfSSzwJhkaeB3sGWTP2nlzrd0zDsyUw3IedmF6JYM2_HuEAxIwoKMB-UZ785AKBgSyxZ-9GX5F9Ucf6AjCkOpmtYccULgeeT5AoHQmDu9hkc5iStaHDR-rpg1KkJ3ahbZeqODfv5t2CpBxX8jKpOreU42PHaAyq2h88i8ccEgPJqLBffmrciW7rUqmGaY9t9feaI5Wrc1r0UG7GOkpbAgkOumsKqBHSUMriQS8jPLPG_0HbPl8E_GzZMKi0NiQBkIxxhZn_Uh5k-nC92WdiNY-d8PMXBJmh_zzq8MFx9U6hNx4KcGHGCGw8Rf7hrRj
+
+{
+  "bookSign": "b0819a2cd7724f058130b25dceda8dd3",
+  "apiKey": "87d64c67f8b647ac89869ef4568321fe"
+}

@@ -1,0 +1,28 @@
+book-iot:
+#  baseUrl: http://biz-admin.alpha.turingos.cn
+  baseUrl: http://biz-admin.turingos.cn
+#  requestToken: login-token=rO0osIVS8gqbbyDdCUIbh7CEjrdzIcaOsztfSSzwJhkaeB3sGWTP2nlzrd0zDsyUw3IedmF6JYM2_HuEAxIwoKMB-UZ785AKBgSyxZ-9GX5F9Ucf6AjCkOpmtYccULgeeT5AoHQmDu9hkc5iStaHDR-rpg1KkJ3ahbZeqODfv5t2CpBxX8jKpOreU42PHaAyq2h88i8ccEgPJqLBffmrciW7rUqmGaY9t9feaI5Wrc1r0UG7GOkpbAgkOumsKqBHSUMriQS8jPLPG_0HbPl8E_GzZMKi0NiQBkIxxhZn_Uh5k-nC92WdiNY-d8PMXBJmh_zzq8MFx9U6hNx4KcGHGCGw8Rf7hrRj
+  cookie: login-token=rO0osIVS8gqbbyDdCUIbh7CEjrdzIcaOsztfSSzwJhkaeB3sGWTP2nlzrdM_CcaRw3IedmF6JYM2_HuEAxIwoKMB-UZ78ZcNCAO1xJy9GX5F9Ucf6AjCkOpmtYccULgeeT5AoHQmCe9hkc5iStaHDR-tpRREx5vMkpBzofWYp4MRIo1tXN7WpK3QXdqJC7cupGR0tTcEKFoGKavfZfaiN3rqow6sFKB4r93CZsVP_9VzxUakB-wlehcsOv6wKKZTR019lAC0y-rEHPwCbPt5Ev-2Y8egzdbHGk933g4j-EN_k77Bo2bK39hrIMPPUxti0q-r-cxZxdU8145-eIXYRjvrtnSfwuBthg
+  # 用于查找私有的绘本库
+  book-store:
+    path: book-iot-api/bizAdmin/bookStoreAuthorization/pageBookStoreDetail
+    method: GET
+  # 用于查找绘本库中的所有绘本数据
+  book-store-detail:
+    path: book-iot-api/bizAdmin/bookStoreAuthorization/findBookByBookStoreDetailId
+    method: get
+
+  # 用于查看绘本详情
+  book-info:
+    path: /book-iot-api/bizAdmin/bookManagement/bookInfo
+    method: post
+
+  # 查看绘本的所有内页数据
+  book-page-list:
+    path: /book-iot-api/bizAdmin/bookManagement/bookPageList
+    method: post
+
+  # 查看绘本的所有内页热区
+  book-piece-list:
+    path: /book-iot-api/bizAdmin/bookManagement/pieceList
+    method: post
