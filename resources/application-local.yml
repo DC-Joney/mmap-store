@@ -1,9 +1,9 @@
 datasource:
   driverName: mysql
-  host: 172.16.1.29
-  port: 3306
+  host:
+  port:
   database: turing_wechat_platform
-  username: appuser
-  password: appuser123
+  username:
+  password:
   charset: utf8mb4
   loc: Asia/Shanghai
